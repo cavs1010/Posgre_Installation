@@ -28,7 +28,7 @@ Follow these steps:
 
 * Select the components to be installed. Uncheck the option to install Stack Builder.
 
-  ![stack_builder.png](../Images/stack_builder_pc.png)
+  ![stack_builder.png](./Images/stack_builder_pc.png)
 
 * Add your data directory. Keep the default location `C:\Program Files\PostgreSQL\14\data`.
 
