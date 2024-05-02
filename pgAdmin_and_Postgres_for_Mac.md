@@ -1,4 +1,4 @@
-# Installing pgAdmin and Postgres on a Mac
+# Installing pgAdmin and Postgres on Windows
 
 Similar to coding with Python using Visual Studio Code, SQL requires a code editor with the ability to execute the scripts that are created by developers. This section guides you through the process of installing pgAdmin and Postgres on a Mac.
 
@@ -8,50 +8,41 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 * Be prepared to record a password—it will be needed later!
 
-## Download Link
+## Download Links
 
 * [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
+* [Installation Instructions](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/)
+
 ## Instructions
 
-* After downloading PostgreSQL 14.7, double click on the `postgresql-16.X.dmg` file. **Note:** The exact file version may be slightly different.
-* **Note**: Do not worry if the version here does not match the version on the download page; Postgres deploys updates frequently. However, ensure that the sversion is 16.x and not a later version as these materials are only tested up to that version.
+**Note:** You will be prompted to create a free account prior to downloading the software.
 
-  ![postgresql-14.7-1-osx](./images/postgresql-14.7-1-osx.png)
+Follow these steps:
 
-* Go through the Setup Wizard and install PostgreSQL. Keep the default location `/Library/PostgreSQL/14`.
+* After downloading the latest version of PostgreSQL 16.x, double-click the `postgresql-16.1-1-windows-x64.exe` file.
 
-* Select the components to be installed. Be sure to un-check `Stack Builder`.
+* **Note:** The exact file version may be slightly different.
 
-  ![postgres_components.png](./images/stack_builder_mac.png)
+* Go through the Setup Wizard and install PostgreSQL. Keep the default location `C:\Program Files\PostgreSQL\16`.
 
-* Add your data directory. Keep the default location `/Library/PostgreSQL/14/data`.
+* Select the components to be installed. Uncheck the option to install Stack Builder.
+
+  ![stack_builder.png](./images/stack_builder_pc.png)
+
+* Add your data directory. Keep the default location `C:\Program Files\PostgreSQL\16\data`.
 
 * Enter `postgres` as the password. **Be sure to record this password for future use.**
 
-* Keep the default port as `5432`. In  the Advanced Options, set the locale as `[Default locale]`.
+* Keep the default port as `5432`. In the Advanced Options, set the locale as  `[Default locale]`.
 
 * The final screen will be the `Pre Installation Summary`.
 
-* When you are done, you should have a folder in your `Applications` with these files.
+* When you are done, the `Postgres 16` folder can be accessed from the Start menu of your computer.
 
-  ![PostgreSQL_folder.png](./images/PostgreSQL_folder.png)
+  * This folder contains the `pgAdmin 4` application.
 
-* **Important:** if you are running the Big Sur update for Mac you will need to download the latest version of pgAdmin.
-
-  * Go to the [pgAdmin download](https://www.pgadmin.org/download/pgadmin-4-macos/) and select the latest version.
-
-  * Click the `.dmg` files to start the download.
-
-    ![pgAdmin dmg file](./images/big_sur_pgadmin.png)
-
-  * Once the download is complete, click on the `.dmg` file in your downloads to install.
-
-  * After it has finished installing, drag the `pgAdmin` file into your applications folder. (This will take a few minutes.)
-
-  * Once the transfer completes, you will be able to use pgAdmin. **Note:** You will still have a version in your PostgreSQL folder, but only use the version that you copied into `Applications`.
-
-* To confirm the installation, start `pgAdmin` (it will open in a new browser window). Connect to the default server by clicking on it and entering the password if prompted.
+  * To confirm the installation, start `pgAdmin` (this will open in a new browser window). Connect to the default server by clicking on it and entering the password if prompted.
 
 - - -
 
