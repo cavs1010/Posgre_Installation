@@ -16,13 +16,13 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 * After downloading PostgreSQL 14.7, double click on the `postgresql-14.7-1-osx.dmg` file. **Note:** The exact file version may be slightly different.
 
-  ![postgresql-14.7-1-osx](../Images/postgresql-14.7-1-osx.png)
+  ![postgresql-14.7-1-osx](./images/postgresql-14.7-1-osx.png)
 
 * Go through the Setup Wizard and install PostgreSQL. Keep the default location `/Library/PostgreSQL/14`.
 
 * Select the components to be installed. Be sure to un-check `Stack Builder`.
 
-  ![postgres_components.png](../Images/stack_builder_mac.png)
+  ![postgres_components.png](./images/stack_builder_mac.png)
 
 * Add your data directory. Keep the default location `/Library/PostgreSQL/14/data`.
 
@@ -34,7 +34,7 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 * When you are done, you should have a folder in your `Applications` with these files.
 
-  ![PostgreSQL_folder.png](../Images/PostgreSQL_folder.png)
+  ![PostgreSQL_folder.png](./images/PostgreSQL_folder.png)
 
 * **Important:** if you are running the Big Sur update for Mac you will need to download the latest version of pgAdmin.
 
@@ -42,7 +42,7 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
   * Click the `.dmg` files to start the download.
 
-    ![pgAdmin dmg file](../Images/big_sur_pgadmin.png)
+    ![pgAdmin dmg file](./images/big_sur_pgadmin.png)
 
   * Once the download is complete, click on the `.dmg` file in your downloads to install.
 
