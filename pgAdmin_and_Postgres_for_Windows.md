@@ -10,7 +10,7 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 ## Download Links
 
-* [PostgreSQL](https://www.enterprisedb.com/downloads/postgresql)
+* [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 
 * [Installation Instructions](https://www.enterprisedb.com/docs/supported-open-source/postgresql/installer/02_installing_postgresql_with_the_graphical_installation_wizard/windows/)
 
@@ -20,18 +20,17 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 Follow these steps:
 
-* After downloading the latest version of PostgreSQL 14.7, double-click the `postgresql-16.2windowsx86-x64.exe` file.
+* After downloading the latest version of PostgreSQL 16.x, double-click the `postgresql-16.1-1-windows-x64.exe` file.
 
+* **Note:** The exact file version may be slightly different.
 
-* **Note**: Do not worry if the version here does not match the version on the download page; Postgres deploys updates frequently. However, ensure that the sversion is 16.x and not a later version as these materials are only tested up to that version.
-
-* Go through the Setup Wizard and install PostgreSQL. Keep the default location `C:\Program Files\PostgreSQL\14`.
+* Go through the Setup Wizard and install PostgreSQL. Keep the default location `C:\Program Files\PostgreSQL\16`.
 
 * Select the components to be installed. Uncheck the option to install Stack Builder.
 
   ![stack_builder.png](./images/stack_builder_pc.png)
 
-* Add your data directory. Keep the default location `C:\Program Files\PostgreSQL\14\data`.
+* Add your data directory. Keep the default location `C:\Program Files\PostgreSQL\16\data`.
 
 * Enter `postgres` as the password. **Be sure to record this password for future use.**
 
@@ -39,7 +38,7 @@ Follow these steps:
 
 * The final screen will be the `Pre Installation Summary`.
 
-* When you are done, the `Postgres 14` folder can be accessed from the Start menu of your computer.
+* When you are done, the `Postgres 16` folder can be accessed from the Start menu of your computer.
 
   * This folder contains the `pgAdmin 4` application.
 
