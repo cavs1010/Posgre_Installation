@@ -38,7 +38,7 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
   * Click the `.dmg` files to start the download.
 
-    ![pgAdmin dmg file](../Images/big_sur_pgadmin.png)
+    ![pgAdmin dmg file](./images/big_sur_pgadmin.png)
 
   * Once the download is complete, click on the `.dmg` file in your downloads to install.
 
