@@ -20,9 +20,10 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 Follow these steps:
 
-* After downloading the latest version of PostgreSQL 14.7, double-click the `postgresql-14.7-2-windows-x64.exe` file.
+* After downloading the latest version of PostgreSQL 14.7, double-click the `postgresql-16.2windowsx86-x64.exe` file.
 
-* **Note:** The exact file version may be slightly different.
+
+* **Note**: Do not worry if the version here does not match the version on the download page; Postgres deploys updates frequently. However, ensure that the sversion is 16.x and not a later version as these materials are only tested up to that version.
 
 * Go through the Setup Wizard and install PostgreSQL. Keep the default location `C:\Program Files\PostgreSQL\14`.
 
