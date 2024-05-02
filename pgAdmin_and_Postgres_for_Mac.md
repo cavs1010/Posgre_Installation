@@ -14,7 +14,8 @@ Similar to coding with Python using Visual Studio Code, SQL requires a code edit
 
 ## Instructions
 
-* After downloading PostgreSQL 14.7, double click on the `postgresql-14.7-1-osx.dmg` file. **Note:** The exact file version may be slightly different.
+* After downloading PostgreSQL 14.7, double click on the `postgresql-16.X.dmg` file. **Note:** The exact file version may be slightly different.
+* **Note**: Do not worry if the version here does not match the version on the download page; Postgres deploys updates frequently. However, ensure that the sversion is 16.x and not a later version as these materials are only tested up to that version.
 
   ![postgresql-14.7-1-osx](./images/postgresql-14.7-1-osx.png)
 
